@@ -7,11 +7,11 @@
   
   --color-brand-accent: #B89B5E; /* Soft Elegant Gold */
   --color-brand-accent-hover: #9A7B3E;
-  --color-brand-bg: #EAE4D9; /* Elegant beige */
-  --color-brand-surface: #F4EFE6; /* Lighter beige for cards/surfaces */
+  --color-brand-bg: #C1B1A1; /* Light brown / mid-tone */
+  --color-brand-surface: #D0C2B4; /* Lighter brown for cards/surfaces */
   --color-brand-text: #2A2A2A; /* Dark elegant gray */
-  --color-brand-text-light: #757575; /* Muted gray */
-  --color-brand-border: #D8CFC0; /* Soft beige border */
+  --color-brand-text-light: #524B45; /* Muted dark gray */
+  --color-brand-border: #A89684; /* Soft brown border */
 }
 
 body {

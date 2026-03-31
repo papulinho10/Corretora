@@ -88,6 +88,17 @@ export default function Layout() {
         <Outlet />
       </main>
 
+      {/* Floating Instagram Button */}
+      <a 
+        href={INSTAGRAM_URL} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="fixed bottom-24 right-6 md:bottom-28 md:right-10 z-50 bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 flex items-center justify-center"
+        aria-label="Instagram"
+      >
+        <Instagram size={32} />
+      </a>
+
       {/* Floating WhatsApp Button */}
       <a 
         href={WHATSAPP_URL} 
