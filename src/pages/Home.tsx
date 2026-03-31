@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { PROPERTIES } from '../data/properties';
 import BannerCarousel from '../components/BannerCarousel';
 
-const LOGO_URL = "https://i.postimg.cc/7YBcKMHk/c850351e-d2fd-48cb-9a9c-c24580609c2a.png";
+const LOGO_URL = "https://i.postimg.cc/1Xk3h0KH/eff09025-79ab-4043-ac72-3eaeae57578b.png";
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-brand-accent tracking-[0.3em] uppercase text-xs md:text-sm font-semibold mb-6 md:mb-8"
+              className="text-brand-accent tracking-[0.3em] uppercase text-xs md:text-sm font-semibold mb-2"
             >
               EXCLUSIVIDADE E ELEGÂNCIA
             </motion.p>
@@ -40,7 +40,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
-            className="flex justify-center mb-12 md:mb-16"
+            className="flex justify-center mb-12 md:mb-16 mt-2"
           >
             <img src={LOGO_URL} alt="Logo" className="h-56 md:h-80 lg:h-[28rem] object-contain drop-shadow-2xl" referrerPolicy="no-referrer" />
           </motion.div>

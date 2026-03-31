@@ -3,7 +3,7 @@ import { Link, Outlet, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, Mail, Instagram, MapPin, MessageCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-const LOGO_URL = "https://i.postimg.cc/7YBcKMHk/c850351e-d2fd-48cb-9a9c-c24580609c2a.png";
+const LOGO_URL = "https://i.postimg.cc/1Xk3h0KH/eff09025-79ab-4043-ac72-3eaeae57578b.png";
 const INSTAGRAM_URL = "https://www.instagram.com/lisandradiefenthaeler/";
 const WHATSAPP_URL = "https://wa.me/5511999999999"; // Replace with real number
 
